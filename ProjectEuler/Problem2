@@ -1,0 +1,8 @@
+a,b=1,2
+count=0
+n=40
+while count<n:
+	print(a,end=" ")
+	a,b=b,a+b 
+	count+=1
+	
