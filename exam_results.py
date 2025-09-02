@@ -1,4 +1,4 @@
-print("Balları daxil et:")
+7print("Balları daxil et:")
 students={"Aysu":int(input("Aysu:")),"Aynur":int(input("Aynur:")),"Bahar":int(input("Bahar:")),"Babək":int(input("Babək:")),"Cavidan":int(input("Cavidan:")),"Damla":int(input("Damla:")),"Fatimə":int(input("Fatimə:")),"Günel":int(input("Günel:")),"Xalid":int(input("Xalid:")),"Zəhra":int(input("Zəhra:"))}
 elacilar={}
 zerbeciler={}
