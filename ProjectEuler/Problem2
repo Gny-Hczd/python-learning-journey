@@ -1,8 +1,11 @@
-a,b=1,2
-count=0
-n=40
-while count<n:
-	print(a,end=" ")
-	a,b=b,a+b 
-	count+=1
-	
+a=0
+b=1
+sum=0
+while b<4000000:
+	c=a+b
+	a=b
+	b=c
+	print(b,end=" ")
+	if b%2==0:
+		sum+=b
+print("\ncütlərin cəmi:",sum)
