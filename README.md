@@ -6,7 +6,7 @@ I am currently in the process of learning and will add exercises, example progra
 ## About Me
 - Currently a student at Baku Engineering University 
 - Learning Python systematically from the official tutorial
-- Interested in software development, automation, and data analysis
+- Interested in software development, automation, data analysis, and algorithm development
 
 ## Current Status
 - Starting with the basics: variables, operators, conditions, loops
