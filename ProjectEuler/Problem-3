@@ -17,9 +17,9 @@ for j in range(0,len(b)):
 print(f"the largest prime factor of the number {a1} is:{max(prime)}") 
 
 
-#This is my first attempt at solving
-#Project Euler Problem 3.  
-#The current code uses a brute-force #approach and works fine for small #inputs, but it is very slow for #large numbers.  
+This is my first attempt at solving
+Project Euler Problem 3.  
+The current code uses a brute-force approach and works fine for small inputs, but it is very slow for large numbers.  
 
-#I plan to add a more efficient #version in the coming days 🚀  
+I plan to add a more efficient #version in the coming days 🚀  
 
