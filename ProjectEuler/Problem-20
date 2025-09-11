@@ -1,0 +1,12 @@
+s=1
+sum=0
+for i in range(1,100):
+	i+=1
+	s=s*i
+print(s)
+while s>0:
+	sum+=s%10
+	s=s//10
+print(sum)
+
+The sum of the digits of the product of the first 100 numbers
