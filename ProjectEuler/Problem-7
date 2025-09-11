@@ -12,5 +12,5 @@ while count<=n:
                 break
     a+=1
 
-#This code finds the 100th prime number.  
-#I will share a better version of it in the future.        
+This code finds the 100th prime number.  
+I will share a better version of it in the future.        
