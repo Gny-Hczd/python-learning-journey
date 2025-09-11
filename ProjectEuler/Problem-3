@@ -8,4 +8,4 @@ if a>1:
 	primes.append(a)
 print(max(primes))
 
-#This code finds the largest prime #factor of the number 600851475143.
+This code finds the largest prime factor of the number 600851475143.
