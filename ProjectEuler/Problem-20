@@ -9,4 +9,4 @@ while s>0:
 	s=s//10
 print(sum)
 
-The sum of the digits of the product of the first 100 numbers
+The product of the first 100 numbers (100!) and the sum of its digits.
