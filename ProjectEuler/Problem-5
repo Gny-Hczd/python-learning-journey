@@ -9,7 +9,7 @@ for i in range(3,eded):
 			s-=1
 			if s==2:
 				sade.append(i)
-size=len(sade) #7
+size=len(sade)
 for i in range(0,size):
 	sade2.append(sade[i]**int(math.log(20,sade[i])))
 ekob=1
