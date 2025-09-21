@@ -1,3 +1,5 @@
+palindrome numbers and sum of them:
+
 n=int(input("enter the number:"))
 print(f"palindrome numbers from 1 to {n}")
 sum=0
