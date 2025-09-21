@@ -1,3 +1,5 @@
+#Finding the product of the Pythagorean triplet (a, b, c) such that a + b + c = 1000
+
 for a in range(0,1000):
 	for b in range(0,1000-a):
 		c=1000-a-b
@@ -5,4 +7,3 @@ for a in range(0,1000):
 			print(a*b*c)
 			break
 
-Finding the product of the Pythagorean triplet (a, b, c) such that a + b + c = 1000
