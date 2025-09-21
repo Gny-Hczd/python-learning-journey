@@ -1,4 +1,4 @@
-#You can find palindrome numbers up #to n and sum of them with the help #of this program:
+#You can find palindrome numbers up to #n and sum of them with the help #of this program:
 
 
 n=int(input("enter the number:"))
