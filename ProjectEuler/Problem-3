@@ -1,4 +1,4 @@
-#This code finds the largest #prime factor of the number 600851475143.
+#This code finds the largest prime factor of the number 600851475143.
 
 a=600851475143
 primes=[]
