@@ -1,3 +1,5 @@
+#This code finds the largest #prime factor of the number 600851475143.
+
 a=600851475143
 primes=[]
 for i in range(2,int(a**0.5)+1):
@@ -7,5 +9,3 @@ for i in range(2,int(a**0.5)+1):
 if a>1:
 	primes.append(a)
 print(max(primes))
-
-#This code finds the largest prime #factor of the number 600851475143.
