@@ -4,7 +4,7 @@ import math
 eded=20
 sade=[2]
 sade2=[]
-for i in range(3,eded):
+for i in range(3,eded+1):
 	s=i
 	for k in range(2,i):
 		if i%k!=0:
