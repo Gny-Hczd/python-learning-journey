@@ -1,5 +1,20 @@
+#1
 sum=0
 for i in range(0,1000):
         if i%3==0 or i%5==0:
                 sum+=i
 print(sum)
+
+#2
+def sumof(n):
+	i=0
+	s=0
+	while i<n:
+		if i%3==0 or i%5==0:
+			s+=i
+		i+=1
+	return s
+print(sumof(1000))
+			
+#3
+print(sum(i for i in range(0,1000) if i%3==0 or i%5==0))
