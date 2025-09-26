@@ -13,4 +13,13 @@ sum=0
 for i in range(0,len(b)): 
 	sum+=int(b[i])
 print(sum)
+
+#3
+def num(a):
+	sums=0
+	while a>0:
+		sums+=a%10
+		a=a//10
+	return sums
+print(num(pow(2,10)))
 	
