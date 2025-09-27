@@ -1,0 +1,9 @@
+a=600851475143
+primes=[]
+for i in range(2,int(a**0.5)+1):
+        if a%i==0:
+                primes.append(i)
+                a=a//i
+if a>1:
+        primes.append(a) 
+print(max(primes))
