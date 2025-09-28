@@ -1,0 +1,21 @@
+import math
+eded=20
+sade=[2]
+sade2=[]
+for i in range(3,eded+1):
+        s=i
+        for k in range(2,i):
+                if i%k!=0:
+                        s-=1
+                        if s==2:
+                                sade.append(i)
+size=len(sade)
+for i in range(0,size):
+        sade2.append(sade[i]**int(math.log(20,sade[i])))
+lcm=1
+for i in range(0,len(sade2)):
+        lcm*=sade2[i]
+print("LCM of the first 20 numbers:",lcm)
+
+#numbers=[i for i in range(1,20+1)]
+#print(math.lcm(*numbers))
