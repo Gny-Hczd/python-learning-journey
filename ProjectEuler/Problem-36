@@ -1,7 +1,0 @@
-sum=0
-for i in range(1,10**6):
-	if str(i)==str(i)[::-1]:
-			binary=bin(i)[2:]
-			if str(binary)==str(binary)[::-1]:
-				sum+=i
-print("The sum of all numbers less than one million that are palindromic in both decimal and binary:",sum)
