@@ -5,4 +5,4 @@ while b<4000000:
 	a,b=b,a+b
 	if b%2==0:
 		sumof+=b
-print("sum of even fibonacci numbers:",sumof)
+print(f"sum of even fibonacci numbers:{sumof}")
