@@ -1,9 +1,9 @@
 #Difference between the square of the sum and the sum of the squares of the first n numbers.
-s=0
-j=0
-n=int(input("enter the number:"))
+sum_of_squares=0
+square_of_sum=0
+n=100
 for i in range(1,n+1,1):
-	s+=i**2
-	j+=i
-j=j**2
-print(j-s)
+        sum_of_squares+=i**2
+        square_of_sum+=i
+square_of_sum=square_of_sum**2
+print("difference:",square_of_sum-sum_of_squares)
