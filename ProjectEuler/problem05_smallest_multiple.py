@@ -1,6 +1,11 @@
-#This code finds the number that is evenly divisible by all the numbers from 1 to 20
+# This code finds the number that is evenly divisible by all the numbers from 1 to 20
 
-import math
-print(f"The smallest number evenly divisible by 1 to 20 is: {math.lcm(*range(1,20+1))}")
-
-#The result of it is 232792560
+s=1
+for i in range(1,21):
+	s*=i # Product of the first 20 numbers
+for j in(2,3,5,7,11,13,17,19): 
+	while all((s//j) % x==0 for x in range(2,21) ):
+		s=s//j
+		# Then we divide by prime numbers up to 20, checking each step
+print(s)
+# The result is 232792560
