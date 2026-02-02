@@ -6,5 +6,4 @@ square1=pow(sum([i for i in range(1,101)]),2)
 diff=square1-sum1
 print(diff)
 
-
 #answer is 25164150
