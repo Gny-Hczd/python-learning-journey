@@ -1,0 +1,10 @@
+num=1
+list=[]
+n=0
+while n<10001:
+	num+=1
+	if all(num%i!=0 for i in range(2,int(num**0.5)+1)):
+		n+=1
+		list.append(num)
+print(max(list))
+	
