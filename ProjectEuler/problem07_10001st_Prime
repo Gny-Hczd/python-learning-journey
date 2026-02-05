@@ -6,5 +6,5 @@ while n<10001:
 	if all(num%i!=0 for i in range(2,int(num**0.5)+1)):
 		n+=1
 		list.append(num)
-print(max(list))
+print(list[10000]) # list index starts at 0, so it's at list[10000 '
 	
